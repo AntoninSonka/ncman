@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/antonin/Code/C/ncman/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

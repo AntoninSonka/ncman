@@ -1,0 +1,3 @@
+/home/antonin/Code/C/ncman/build/CMakeFiles/main.dir
+/home/antonin/Code/C/ncman/build/CMakeFiles/edit_cache.dir
+/home/antonin/Code/C/ncman/build/CMakeFiles/rebuild_cache.dir
