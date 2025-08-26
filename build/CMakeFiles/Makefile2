@@ -63,11 +63,11 @@ CMAKE_BINARY_DIR = /home/antonin/Code/C/ncman/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/main.dir/all
+all: CMakeFiles/ncman.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/main.dir/codegen
+codegen: CMakeFiles/ncman.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -75,40 +75,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/ncman.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/main.dir
+# Target rules for target CMakeFiles/ncman.dir
 
 # All Build rule for target.
-CMakeFiles/main.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/antonin/Code/C/ncman/build/CMakeFiles --progress-num=1,2 "Built target main"
-.PHONY : CMakeFiles/main.dir/all
+CMakeFiles/ncman.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ncman.dir/build.make CMakeFiles/ncman.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ncman.dir/build.make CMakeFiles/ncman.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/antonin/Code/C/ncman/build/CMakeFiles --progress-num=1,2 "Built target ncman"
+.PHONY : CMakeFiles/ncman.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/main.dir/rule: cmake_check_build_system
+CMakeFiles/ncman.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonin/Code/C/ncman/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ncman.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/antonin/Code/C/ncman/build/CMakeFiles 0
-.PHONY : CMakeFiles/main.dir/rule
+.PHONY : CMakeFiles/ncman.dir/rule
 
 # Convenience name for target.
-main: CMakeFiles/main.dir/rule
-.PHONY : main
+ncman: CMakeFiles/ncman.dir/rule
+.PHONY : ncman
 
 # codegen rule for target.
-CMakeFiles/main.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/antonin/Code/C/ncman/build/CMakeFiles --progress-num=1,2 "Finished codegen for target main"
-.PHONY : CMakeFiles/main.dir/codegen
+CMakeFiles/ncman.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ncman.dir/build.make CMakeFiles/ncman.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/antonin/Code/C/ncman/build/CMakeFiles --progress-num=1,2 "Finished codegen for target ncman"
+.PHONY : CMakeFiles/ncman.dir/codegen
 
 # clean rule for target.
-CMakeFiles/main.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
-.PHONY : CMakeFiles/main.dir/clean
+CMakeFiles/ncman.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ncman.dir/build.make CMakeFiles/ncman.dir/clean
+.PHONY : CMakeFiles/ncman.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

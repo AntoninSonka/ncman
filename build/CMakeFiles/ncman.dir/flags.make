@@ -4,7 +4,7 @@
 # compile C with /usr/sbin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/antonin/Code/C/ncman/$(CURSES_INCLUDE_DIR)
+C_INCLUDES = 
 
 C_FLAGS = 
 
