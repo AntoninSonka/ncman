@@ -21,4 +21,6 @@ CMakeFiles/ncman.dir/src/ncman.c.o: \
  /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
  /usr/include/bits/floatn-common.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h \
- /usr/include/unctrl.h /usr/include/curses.h
+ /usr/include/unctrl.h /usr/include/curses.h /usr/include/cjson/cJSON.h \
+ /usr/include/string.h /usr/include/bits/types/locale_t.h \
+ /usr/include/bits/types/__locale_t.h /usr/include/strings.h
