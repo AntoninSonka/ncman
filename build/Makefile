@@ -153,6 +153,30 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ncman.dir/build.make CMakeFiles/ncman.dir/src/main.c.s
 .PHONY : src/main.c.s
 
+src/ncman.o: src/ncman.c.o
+.PHONY : src/ncman.o
+
+# target to build an object file
+src/ncman.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ncman.dir/build.make CMakeFiles/ncman.dir/src/ncman.c.o
+.PHONY : src/ncman.c.o
+
+src/ncman.i: src/ncman.c.i
+.PHONY : src/ncman.i
+
+# target to preprocess a source file
+src/ncman.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ncman.dir/build.make CMakeFiles/ncman.dir/src/ncman.c.i
+.PHONY : src/ncman.c.i
+
+src/ncman.s: src/ncman.c.s
+.PHONY : src/ncman.s
+
+# target to generate assembly for a file
+src/ncman.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ncman.dir/build.make CMakeFiles/ncman.dir/src/ncman.c.s
+.PHONY : src/ncman.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +189,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/ncman.o"
+	@echo "... src/ncman.i"
+	@echo "... src/ncman.s"
 .PHONY : help
 
 

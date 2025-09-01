@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/antonin/Code/C/ncman/src/main.c" "CMakeFiles/ncman.dir/src/main.c.o" "gcc" "CMakeFiles/ncman.dir/src/main.c.o.d"
+  "/home/antonin/Code/C/ncman/src/ncman.c" "CMakeFiles/ncman.dir/src/ncman.c.o" "gcc" "CMakeFiles/ncman.dir/src/ncman.c.o.d"
   "" "ncman" "gcc" "CMakeFiles/ncman.dir/link.d"
   )
 

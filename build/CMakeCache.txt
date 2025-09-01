@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Path to a library.
+CJSON_LIB:FILEPATH=/usr/lib/libcjson.so
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/sbin/addr2line
 
@@ -28,7 +31,7 @@ CMAKE_BUILD_TYPE:STRING=
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
 //CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/usr/sbin/c++
+CMAKE_CXX_COMPILER:STRING=/usr/sbin/c++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -54,7 +57,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
 //C compiler
-CMAKE_C_COMPILER:FILEPATH=/usr/sbin/cc
+CMAKE_C_COMPILER:STRING=/usr/sbin/cc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
 // for the GCC compiler
@@ -245,6 +248,9 @@ CURSES_INCLUDE_PATH:PATH=/usr/include
 //Path to a library.
 CURSES_NCURSES_LIBRARY:FILEPATH=/usr/lib/libncurses.so
 
+//The directory containing a CMake configuration file for Cjson.
+Cjson_DIR:PATH=Cjson_DIR-NOTFOUND
+
 //Arguments to supply to pkg-config
 PKG_CONFIG_ARGN:STRING=
 
@@ -279,7 +285,7 @@ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=4
 //Minor version of cmake used to create the current loaded cache
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=1
 //Patch version of cmake used to create the current loaded cache
-CMAKE_CACHE_PATCH_VERSION:INTERNAL=0
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.

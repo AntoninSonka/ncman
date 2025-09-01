@@ -3,6 +3,7 @@ ncman: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/crtbeginS.o \
   CMakeFiles/ncman.dir/src/main.c.o \
+  CMakeFiles/ncman.dir/src/ncman.c.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libcurses.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libcurses.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libcurses.so \
@@ -11,6 +12,7 @@ ncman: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libform.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libform.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libformw.so \
+  /usr/lib/libcjson.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libgcc_s.so \
@@ -41,6 +43,8 @@ ncman: \
 
 CMakeFiles/ncman.dir/src/main.c.o:
 
+CMakeFiles/ncman.dir/src/ncman.c.o:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libcurses.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libcurses.so:
@@ -56,6 +60,8 @@ CMakeFiles/ncman.dir/src/main.c.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libform.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libformw.so:
+
+/usr/lib/libcjson.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/libgcc.a:
 

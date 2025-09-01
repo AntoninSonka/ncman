@@ -1,1 +1,1 @@
-/usr/sbin/cc -Wl,--dependency-file=CMakeFiles/ncman.dir/link.d CMakeFiles/ncman.dir/src/main.c.o -o ncman  -lcurses -lform
+/usr/sbin/cc -Wl,--dependency-file=CMakeFiles/ncman.dir/link.d CMakeFiles/ncman.dir/src/main.c.o CMakeFiles/ncman.dir/src/ncman.c.o -o ncman  -lcurses -lform /usr/lib/libcjson.so

@@ -14,4 +14,4 @@ CMakeFiles/ncman.dir/src/main.c.o: /home/antonin/Code/C/ncman/src/main.c \
  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
- /usr/include/bits/floatn-common.h
+ /usr/include/bits/floatn-common.h /usr/include/cjson/cJSON.h
